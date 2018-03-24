@@ -183,7 +183,6 @@ void GlowUpdateLED(int LEDId)
 {
   if (_fadeStatus == GLOWING)
   {
-    //_fadeCounter++;
     _fadeCounter += 4;
     
     if (_fadeCounter > 255)
@@ -194,7 +193,6 @@ void GlowUpdateLED(int LEDId)
   }
   else
   {
-    //_fadeCounter--;
     _fadeCounter -= 4;
     
     if (_fadeCounter < 0)
