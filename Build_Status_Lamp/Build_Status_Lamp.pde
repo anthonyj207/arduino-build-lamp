@@ -1,5 +1,5 @@
 // Build Status Lamp
-gfhfdghfdghfdghf
+
 #define RED_LED_ONE 2
 #define RED_LED_TWO 3
 #define YELLOW_LED 4
